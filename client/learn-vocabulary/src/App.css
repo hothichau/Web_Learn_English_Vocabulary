@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-left: 1px solid #bbb;
+  height: 40px;
+  margin-top: 30%;
+  margin-left: 50%;
+  width: 150px;
+  padding: 10px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  height: 50px;
+}
+
+.active {
+  background-color: #4caf50;
+}
+ul .text a {
+  float: right;
+}
+
+.home2 img {
+  width: 500px;
+  padding-top: 5%;
+  border-right: none;
+}
+
+.home1 img {
+  padding: 10px;
+  border-right: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+
+.fixed-header button {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 2.3%;
+  margin-right: 10px;
+  float: right;
+}
+
+.login button:hover {
+  font-size: 15px;
+}
+.user{
+  margin-top: 3%;
+  margin-right: 10px;
+  float: right;
+}

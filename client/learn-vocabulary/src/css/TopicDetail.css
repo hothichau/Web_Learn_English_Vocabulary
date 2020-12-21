@@ -1,0 +1,60 @@
+.TopicIDetail {
+  margin-bottom: 5%;
+  width: 1500px;
+}
+.TopicIDetail .content {
+  padding-right: 5%;
+  margin-left: 25%;
+  margin-top: -24%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid;
+  font-size: 30px;
+  background-color: #4caf50;
+  color: aliceblue;
+  text-align: center;
+}
+.menu {
+  width: 10%;
+  float: left;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+.pronunciation{
+  display: inline-flex;
+}
+
+.pronunciation span{
+  padding-top: 10%;
+  color: black;
+}
+
+.meaning{
+  color: red;  
+}
+.main {
+  width: 90%;
+  float: left;
+  border-bottom: 1px solid grey;
+  color: white;
+  height: 135px;
+}
+.main .word{
+  font-size: 25px;
+  color: green;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main p{
+  padding-left: 4%;
+  color:black;
+}
+
+.TopicIDetail .formComment{
+  margin-top: 30%;
+}

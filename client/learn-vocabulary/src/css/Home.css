@@ -1,0 +1,17 @@
+
+.home {
+  text-align: center;
+  width: 1350px;
+  
+}
+.home p{
+text-align: justify;
+font-size: 17px;
+padding-left:1%;
+padding-right:2%;
+}
+
+.home .register{
+  margin-top: 2%;
+ 
+}

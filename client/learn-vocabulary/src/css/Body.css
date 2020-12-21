@@ -1,0 +1,66 @@
+/* .vertical-menu {
+  width: 200px;
+  padding-right: 5%;
+  margin-right: 10%;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4caf50;
+  color: white;
+} */
+/*
+.content{
+    float: right;
+    background-color: #4CAF50;
+    width: 900px;
+    height: 400px;
+}
+.Body {
+    display: inline-flex;
+    padding-top: 15%;
+}
+
+#todo{
+    display:none;
+}
+
+#doing{
+    display:none;
+}
+
+#done{
+    display:none;
+} */
+.Parent {
+  height: auto;
+  margin-top: 5%;
+  margin-left: 7%;
+  display: inline-flex;
+  margin-bottom: 2%;
+  margin-right: 8%;
+}
+
+.Parent .Vocabulary {
+  margin-left: 1.5%;
+  margin-top: 15%;
+}
+
+.Parent .form-inline{
+  margin-bottom: 3%;
+}
+
+.Parent .vertical-menu{
+  width: 300px;
+}

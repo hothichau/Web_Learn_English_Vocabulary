@@ -1,0 +1,58 @@
+.comment form{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 20%;
+    border-radius: 10%;
+
+}
+
+.show-comments{
+  
+    height: 200px;
+    color: black;
+    padding-left: 11%;
+    padding-right: 4.5%;
+}
+
+
+.comment form label{
+    text-align: left;
+}
+
+.comment input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+  
+ .comment input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .comment input[type=submit]:hover {
+    background-color: #024606;
+  }
+  
+  .comment {
+    padding: 20px;
+  }
+
+  .show-comments h3{
+    border-bottom: 1px solid #000;
+  }
+
+  .show-comments h4{
+    border-bottom: none;
+  }
